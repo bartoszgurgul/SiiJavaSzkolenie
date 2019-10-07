@@ -1,20 +1,20 @@
 
+\squid:S1854"?Remove this useless assignment to local variable "floatLiczba".(ôí±c8öÛž•Ø-
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(©ë±ñúÿÿÿÿ
+Zsquid:S1854"=Remove this useless assignment to local variable "intLiczba".(Ã³èU8£ò‚•Ø-
+Msquid:S1481"/Remove this unused "byteLiczba" local variable.(’ã¨ý8öÛž•Ø-
+]squid:S1854	"?Remove this useless assignment to local variable "shortLiczba".(¯Œêý8öÛž•Ø-
+Ksquid:S1481".Remove this unused "intLiczba" local variable.(Ã³èU8£ò‚•Ø-
+csquid:S1854"@Remove this useless assignment to local variable "doubleLiczba".(•ªŸ¯øÿÿÿÿ8ºÈŽ•Ø-
 asquid:S1854
 ">Remove this useless assignment to local variable "charLiczba".(±¿†µÿÿÿÿÿ8öÛž•Ø-
-asquid:S1854">Remove this useless assignment to local variable "longLiczba".(ôŽŒûúÿÿÿÿ8†Ú„•Ø-
 [
 squid:S106"9Replace this use of System.out or System.err by a logger.(´‹¹öþÿÿÿÿ8àÏ•Ø-
-]squid:S1854	"?Remove this useless assignment to local variable "shortLiczba".(¯Œêý8öÛž•Ø-
-\squid:S1854">Remove this useless assignment to local variable "byteLiczba".(’ã¨ý8öÛž•Ø-
-Tsquid:S1481"1Remove this unused "doubleLiczba" local variable.(•ªŸ¯øÿÿÿÿ8öÛž•Ø-
-wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(©ë±ñúÿÿÿÿ
-csquid:S1854"@Remove this useless assignment to local variable "doubleLiczba".(•ªŸ¯øÿÿÿÿ8ºÈŽ•Ø-
-Rsquid:S1481"/Remove this unused "longLiczba" local variable.(ôŽŒûúÿÿÿÿ8†Ú„•Ø-
-\squid:S1854"?Remove this useless assignment to local variable "floatLiczba".(ôí±c8öÛž•Ø-
-Msquid:S1481"0Remove this unused "floatLiczba" local variable.(ôí±c8öÛž•Ø-
+asquid:S1854">Remove this useless assignment to local variable "longLiczba".(ôŽŒûúÿÿÿÿ8†Ú„•Ø-
+Nsquid:S1481	"0Remove this unused "shortLiczba" local variable.(¯Œêý8öÛž•Ø-
 Rsquid:S1481
 "/Remove this unused "charLiczba" local variable.(±¿†µÿÿÿÿÿ8öÛž•Ø-
-Nsquid:S1481	"0Remove this unused "shortLiczba" local variable.(¯Œêý8öÛž•Ø-
-Ksquid:S1481".Remove this unused "intLiczba" local variable.(Ã³èU8£ò‚•Ø-
-Msquid:S1481"/Remove this unused "byteLiczba" local variable.(’ã¨ý8öÛž•Ø-
-Zsquid:S1854"=Remove this useless assignment to local variable "intLiczba".(Ã³èU8£ò‚•Ø-
+Rsquid:S1481"/Remove this unused "longLiczba" local variable.(ôŽŒûúÿÿÿÿ8†Ú„•Ø-
+\squid:S1854">Remove this useless assignment to local variable "byteLiczba".(’ã¨ý8öÛž•Ø-
+Msquid:S1481"0Remove this unused "floatLiczba" local variable.(ôí±c8öÛž•Ø-
+Tsquid:S1481"1Remove this unused "doubleLiczba" local variable.(•ªŸ¯øÿÿÿÿ8öÛž•Ø-

@@ -1,14 +1,14 @@
 
-jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ûü„ÿøÿÿÿÿ
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(÷ŽÚõÿÿÿÿÿ8±ÙÑ”Ø-
-nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(åÂûÿÿÿÿ8±ÙÑ”Ø-
-[
-squid:S106$"9Replace this use of System.out or System.err by a logger.(¬ÖÍˆþÿÿÿÿ8±ÙÑ”Ø-
-wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¡ò„âüÿÿÿÿ
 [
 squid:S106"9Replace this use of System.out or System.err by a logger.(ëŽâòüÿÿÿÿ8±ÙÑ”Ø-
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(åÂûÿÿÿÿ8±ÙÑ”Ø-
 V
 squid:S106"9Replace this use of System.out or System.err by a logger.(ýšÑŽ8±ÙÑ”Ø-
 V
 squid:S106"9Replace this use of System.out or System.err by a logger.(Þ‘Í²8±ÙÑ”Ø-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(÷ŽÚõÿÿÿÿÿ8±ÙÑ”Ø-
+jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ûü„ÿøÿÿÿÿ
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¡ò„âüÿÿÿÿ
+[
+squid:S106$"9Replace this use of System.out or System.err by a logger.(¬ÖÍˆþÿÿÿÿ8±ÙÑ”Ø-

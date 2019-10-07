@@ -22,9 +22,12 @@ class ZadanieDomowe {
     private int maxLetter;
     private int maxInteger;
     private int maxSpecial;
+    private Random random;
 
     private ZadanieDomowe() {
         dictionary = new Dictionary();
+
+        random = new Random();
 
         maxLetter = dictionary.upperAndLowerletters.length;
         maxInteger = dictionary.allInteger.length;
@@ -77,9 +80,10 @@ class ZadanieDomowe {
 
 
         int passLength = getPassLength();
+
         do {
             for (int passIndex = 0; passIndex < passLength; passIndex++) {
-                pass.append(getOneRandomChar(new Random().nextInt(3)));
+                pass.append(getOneRandomChar(random.nextInt(3)));
             }
         } while (!checkPassCorrection(pass));
 
@@ -99,13 +103,13 @@ class ZadanieDomowe {
         int index;
         switch (randomTable) {
             case 0:
-                index = new Random().nextInt(maxLetter);
+                index = random.nextInt(maxLetter);
                 return dictionary.upperAndLowerletters[index];
             case 1:
-                index = new Random().nextInt(maxInteger);
+                index = random.nextInt(maxInteger);
                 return dictionary.allInteger[index];
             case 2:
-                index = new Random().nextInt(maxSpecial);
+                index = random.nextInt(maxSpecial);
                 return dictionary.specialSigns[index];
             default:
                 throw new IllegalArgumentException("Wrong int randomTable implementation");
@@ -114,13 +118,24 @@ class ZadanieDomowe {
     }
 
     private int getPassLength() {
-        Scanner input = new Scanner(System.in);
-        int passLength;
+        Scanner sc = new Scanner(System.in);
+        int number;
+
+        boolean flag = true;
+        System.out.println("Please provide password length ( min 8 )");
         do {
-            System.out.println("Please provide length of your password ( min 8 )");
-            passLength = input.nextInt();
-        } while (passLength < 8);
-        return passLength;
+            while (!sc.hasNextInt()) {
+                System.out.println("That's not a number!");
+                sc.next(); // this is important!
+            }
+            number = sc.nextInt();
+            if (number < 8 || number > 30 ) {
+                System.out.println("Podana liczna nie miesci sie w zakresie ");
+            } else {
+                flag =false;
+            }
+        } while (flag);
+        return number;
     }
 
 }

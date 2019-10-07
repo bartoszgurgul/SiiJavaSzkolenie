@@ -11,3 +11,10 @@ P
  src/tablice/ZadaniePrintAll.java,e\2\e23883ee14cb896824a21f35949d38623cfb5692
 N
 src/tablice/ZadanieDomowe.java,e\5\e5afaba830b3ed473637c9be65d34ef1c7f6ceaf
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+D
+SiiJavaSzkolenie.iml,e\b\eb055ce51fcfd81fe1a5e5e9ec9c9d1e067583d5
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
